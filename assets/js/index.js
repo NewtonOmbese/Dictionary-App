@@ -41,10 +41,8 @@ const data= (result , input)=>{
     synonyms.appendChild(span)
     span.innerHTML=ele
   });
-  //  console.log(result[0])
 
  }
-  // console.log(result)
 }
 clearIcon.addEventListener('click',()=>{
   searchInput.value=''
